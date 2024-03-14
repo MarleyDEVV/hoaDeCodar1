@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /*EX1 Escreva um programa em Javascript e crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
+            var nome_do_carro = "fusca"
+            alert("O modelo do carro é: " + nome_do_carro);
+       */ 
+
+        /*EX2 Escreva um programa em Javascript em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".
+            var nome_usuario = prompt("Escreva seu nome completo")
+            alert("Olá, " +nome_usuario)
+        */
+
+        /*EX3 Escreva um programa em Javascript em que o usuário informe o seu nome e em seguida o programa perguntará a idade do usuário. Agora o programa deve exibir a mensagem "Olá, [NomeDoUsuario], sua idade é [idade]".
+            var nome_usuario = prompt("Escreva seu nome completo:")
+            var idade = prompt("Digite sua idade:")
+            alert("Olá, " + nome_usuario + " voce tem " + idade + " anos")
+        */
+
+        /*4Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+            RETANGULO
+            var base = parseFloat(prompt("digite o valor da base:"));
+            var altura = parseFloat(prompt("digite o valor da altura:"))
+            var valor = base*altura
+            alert("a área do retangulo é: " + valor);
+
+            QUADRADO
+            var lado = parseFloat(prompt("digite o valor do lado do quadrado:"));
+            var valor = lado * lado
+            alert("A área do quadrado é: "+ lado + "²" + " = " + valor)
+        
+            LOSANGO
+            var diagMaior = parseFloat(prompt("digite o valor da diagonal maior: "))
+            var diagMenor = parseFloat(prompt("digite o valor da diagonal menor: "))
+            var result = (diagMaior * diagMenor)/2;
+            alert("a área do losango é: " + result);
+            
+            TRAPEZIO
+            var bMaior = parseFloat(prompt("digite o valor da base maior: "))
+            var bMenor = parseFloat(prompt("digite o valor da diagonal menor: "))
+            var altura = parseFloat(prompt("digite o valor da altura: "))
+            var result = (bMaior + bMenor) * 2 /2;
+            alert("a área do trapézio é: " + result);   
+
+            PARALELOGRAMO
+            var base = parseFloat(prompt("digite o valor da base:"));
+            var altura = parseFloat(prompt("digite o valor da altura: "));
+            var result = base * altura;
+            alert("o valor do paralelogramo é: " + result)
+            
+
+            TRIANGULO
+            var base = parseFloat(prompt("digite o valor da base:"));
+            var altura = parseFloat(prompt("digite o valor da altura: "));
+            var result = (base * altura) / 2;
+            alert("a área do triangulo é: " + result)
+            */
+
+            var raio = parseFloat(prompt("digite o valor do raio do circulo: "))
+            var result = Math.PI *(raio * raio)
+            alert("a area do circulo é: " + result)
+    </script>
+</body>
+</html>
